@@ -1,0 +1,145 @@
+* {margin:2px;
+padding:2px}
+
+
+.first-section {
+    background-color: #1f2937;
+}
+
+#header-logo {font-size: 24px;
+    color: white;}
+
+.header-link {
+    font-size: 18px;
+    color:white;;
+}
+
+.navbar {display: flex;}
+
+ul {display: flex;
+}
+
+.navbar-left  {width:30%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.navbar-right {    width:70%;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+h2 {font-size: 48px;
+    font-weight: extra-bold;
+    color:white;}
+
+
+.content {
+    display:flex;
+    flex-direction: row;
+}
+
+.content-left, .content-right {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50%;
+    }
+
+img {
+    margin:50px;
+}
+
+.first-sign-up{
+    background-color: #3882f6;
+    color:white;
+    width:100px;
+    height:30px;
+    border-radius:13px;
+    align-self:flex-end;
+    }
+
+.second-section {background-color:white;
+    padding:30px;}
+h3 {
+    font-size:36px;
+    font-weight: bold;
+    color:#1f2937;
+    text-align:center;
+}
+.row-of-boxes {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height:250px;}
+
+.icon {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin:25px;
+}
+
+.blue-box {border: solid blue 3px;
+    height: 140px;
+    border-radius:15px;
+    width:150px;
+}
+
+.icon-info {
+    color:gray;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    }
+
+.script {
+    color:#1f2937;
+    font-style: italic;
+    font-weight: light;
+    font-size:36px;
+    margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    padding:100px;
+}
+
+.fourth-section {
+    background-color: white;
+}
+
+.words {
+    width:75%;
+    margin-left:200px;
+}
+
+.action-box {
+    display:flex;
+    align-items: center;
+    background-color: #3882f6;
+    margin:50px;
+    padding:30px;
+}
+
+.second-sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 13px;
+    border:solid white 2px;
+}
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1f2937;
+    color:white;
+    height:80px;
+}
